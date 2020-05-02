@@ -1,0 +1,164 @@
+*{
+	
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	font-weight: 200;
+	word-spacing: 5px;
+	letter-spacing: 0.5px;
+	background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.9)),to(rgba(0, 0, 0, 0.9))),url(3175525.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)),url(3175525.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.row{
+	max-width: 1140px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/******************Headings*******************************/
+
+h1,h2,.budget__title{
+	color: #ffffff;
+	text-align: center;
+	font-weight: 100;
+}
+
+h1{
+	margin-top: 20px;
+	border-top: 2px solid #fff;
+}
+
+
+h3{
+	
+	font-weight: 100;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 30px;
+	margin-top: 50px;
+	width: 30%;
+	border: 1px solid #000;
+	border-radius: 200px;
+	background-color: #dedede;
+	
+}
+
+/*****************Data******************************/
+
+.select,.text_description,.add_details{
+	margin-top: 20px;
+	border: 1px solid #e7e7e7;
+    background-color: #fff;
+    color: inherit;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    padding: 12px 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    -webkit-transition: border 0.3s;
+    transition: border 0.3s;
+}
+
+.select{
+	text-align: center;
+	width: 15%;
+	
+}
+.text_description{
+	text-align: center;
+	width: 50%;
+}
+
+
+.add_details:link,
+.add_details:visited{
+	text-decoration: none;
+	background-color: #ff7668;
+	-webkit-transition: background-color 0.2s;
+	transition: background-color 0.2s;
+}
+
+.add_details:hover,
+.add_details:active{
+	background-color: rgba(108, 108, 108, 0.35);
+}
+
+
+
+/****************List*******************/
+
+.list{
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 50%;
+	float: inherit;
+}
+
+.item:first-child { border-top: 1px solid #e7e7e7; }
+
+
+.work__description,.item__delete{
+	color: #fff;
+	text-align: center;
+}
+
+.work__description{
+	margin-left: 150px;
+	float: left;
+	width: 30%;
+	text-align: left;
+	text-justify: auto;
+	text-transform: uppercase
+}
+
+.item__delete{
+	float: right;
+}
+.item__delete--btn {
+	margin-right: 20px;
+    font-size: 22px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+	color: aliceblue
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
